@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7AF75E30242FCEDE00632E51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF75E2F242FCEDE00632E51 /* AppDelegate.swift */; };
+		7AF75E32242FCEDE00632E51 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF75E31242FCEDE00632E51 /* SceneDelegate.swift */; };
+		7AF75E34242FCEDE00632E51 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF75E33242FCEDE00632E51 /* ViewController.swift */; };
+		7AF75E39242FCEE100632E51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AF75E38242FCEE100632E51 /* Assets.xcassets */; };
+		7AF75E3C242FCEE100632E51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AF75E3A242FCEE100632E51 /* LaunchScreen.storyboard */; };
+		7AF75E47242FCEE100632E51 /* MockSpotifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF75E46242FCEE100632E51 /* MockSpotifyTests.swift */; };
+		7AF75E52242FCEE100632E51 /* MockSpotifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF75E51242FCEE100632E51 /* MockSpotifyUITests.swift */; };
+		7AF75E622430002B00632E51 /* HomeCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF75E612430002B00632E51 /* HomeCollectionViewController.swift */; };
+		7AF75E64243005D000632E51 /* SectionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF75E63243005D000632E51 /* SectionCollectionViewCell.swift */; };
+		7AF75E66243047AC00632E51 /* HeadCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF75E65243047AC00632E51 /* HeadCollectionViewCell.swift */; };
+		7AF75E6824305CCE00632E51 /* LikedGroupBandsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF75E6724305CCE00632E51 /* LikedGroupBandsButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7AF75E43242FCEE100632E51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AF75E24242FCEDE00632E51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AF75E2B242FCEDE00632E51;
+			remoteInfo = MockSpotify;
+		};
+		7AF75E4E242FCEE100632E51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AF75E24242FCEDE00632E51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AF75E2B242FCEDE00632E51;
+			remoteInfo = MockSpotify;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7AF75E2C242FCEDE00632E51 /* MockSpotify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MockSpotify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AF75E2F242FCEDE00632E51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7AF75E31242FCEDE00632E51 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7AF75E33242FCEDE00632E51 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7AF75E38242FCEE100632E51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7AF75E3B242FCEE100632E51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7AF75E3D242FCEE100632E51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AF75E42242FCEE100632E51 /* MockSpotifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MockSpotifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AF75E46242FCEE100632E51 /* MockSpotifyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockSpotifyTests.swift; sourceTree = "<group>"; };
+		7AF75E48242FCEE100632E51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AF75E4D242FCEE100632E51 /* MockSpotifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MockSpotifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AF75E51242FCEE100632E51 /* MockSpotifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockSpotifyUITests.swift; sourceTree = "<group>"; };
+		7AF75E53242FCEE100632E51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AF75E612430002B00632E51 /* HomeCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewController.swift; sourceTree = "<group>"; };
+		7AF75E63243005D000632E51 /* SectionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionCollectionViewCell.swift; sourceTree = "<group>"; };
+		7AF75E65243047AC00632E51 /* HeadCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadCollectionViewCell.swift; sourceTree = "<group>"; };
+		7AF75E6724305CCE00632E51 /* LikedGroupBandsButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikedGroupBandsButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7AF75E29242FCEDE00632E51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AF75E3F242FCEE100632E51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AF75E4A242FCEE100632E51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7AF75E23242FCEDE00632E51 = {
+			isa = PBXGroup;
+			children = (
+				7AF75E2E242FCEDE00632E51 /* MockSpotify */,
+				7AF75E45242FCEE100632E51 /* MockSpotifyTests */,
+				7AF75E50242FCEE100632E51 /* MockSpotifyUITests */,
+				7AF75E2D242FCEDE00632E51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7AF75E2D242FCEDE00632E51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AF75E2C242FCEDE00632E51 /* MockSpotify.app */,
+				7AF75E42242FCEE100632E51 /* MockSpotifyTests.xctest */,
+				7AF75E4D242FCEE100632E51 /* MockSpotifyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7AF75E2E242FCEDE00632E51 /* MockSpotify */ = {
+			isa = PBXGroup;
+			children = (
+				7AF75E2F242FCEDE00632E51 /* AppDelegate.swift */,
+				7AF75E31242FCEDE00632E51 /* SceneDelegate.swift */,
+				7AF75E33242FCEDE00632E51 /* ViewController.swift */,
+				7AF75E38242FCEE100632E51 /* Assets.xcassets */,
+				7AF75E3A242FCEE100632E51 /* LaunchScreen.storyboard */,
+				7AF75E3D242FCEE100632E51 /* Info.plist */,
+				7AF75E612430002B00632E51 /* HomeCollectionViewController.swift */,
+				7AF75E63243005D000632E51 /* SectionCollectionViewCell.swift */,
+				7AF75E65243047AC00632E51 /* HeadCollectionViewCell.swift */,
+				7AF75E6724305CCE00632E51 /* LikedGroupBandsButton.swift */,
+			);
+			path = MockSpotify;
+			sourceTree = "<group>";
+		};
+		7AF75E45242FCEE100632E51 /* MockSpotifyTests */ = {
+			isa = PBXGroup;
+			children = (
+				7AF75E46242FCEE100632E51 /* MockSpotifyTests.swift */,
+				7AF75E48242FCEE100632E51 /* Info.plist */,
+			);
+			path = MockSpotifyTests;
+			sourceTree = "<group>";
+		};
+		7AF75E50242FCEE100632E51 /* MockSpotifyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7AF75E51242FCEE100632E51 /* MockSpotifyUITests.swift */,
+				7AF75E53242FCEE100632E51 /* Info.plist */,
+			);
+			path = MockSpotifyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7AF75E2B242FCEDE00632E51 /* MockSpotify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AF75E56242FCEE100632E51 /* Build configuration list for PBXNativeTarget "MockSpotify" */;
+			buildPhases = (
+				7AF75E28242FCEDE00632E51 /* Sources */,
+				7AF75E29242FCEDE00632E51 /* Frameworks */,
+				7AF75E2A242FCEDE00632E51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MockSpotify;
+			productName = MockSpotify;
+			productReference = 7AF75E2C242FCEDE00632E51 /* MockSpotify.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7AF75E41242FCEE100632E51 /* MockSpotifyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AF75E59242FCEE100632E51 /* Build configuration list for PBXNativeTarget "MockSpotifyTests" */;
+			buildPhases = (
+				7AF75E3E242FCEE100632E51 /* Sources */,
+				7AF75E3F242FCEE100632E51 /* Frameworks */,
+				7AF75E40242FCEE100632E51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AF75E44242FCEE100632E51 /* PBXTargetDependency */,
+			);
+			name = MockSpotifyTests;
+			productName = MockSpotifyTests;
+			productReference = 7AF75E42242FCEE100632E51 /* MockSpotifyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7AF75E4C242FCEE100632E51 /* MockSpotifyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AF75E5C242FCEE100632E51 /* Build configuration list for PBXNativeTarget "MockSpotifyUITests" */;
+			buildPhases = (
+				7AF75E49242FCEE100632E51 /* Sources */,
+				7AF75E4A242FCEE100632E51 /* Frameworks */,
+				7AF75E4B242FCEE100632E51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AF75E4F242FCEE100632E51 /* PBXTargetDependency */,
+			);
+			name = MockSpotifyUITests;
+			productName = MockSpotifyUITests;
+			productReference = 7AF75E4D242FCEE100632E51 /* MockSpotifyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7AF75E24242FCEDE00632E51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Kacio Batista";
+				TargetAttributes = {
+					7AF75E2B242FCEDE00632E51 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					7AF75E41242FCEE100632E51 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 7AF75E2B242FCEDE00632E51;
+					};
+					7AF75E4C242FCEE100632E51 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 7AF75E2B242FCEDE00632E51;
+					};
+				};
+			};
+			buildConfigurationList = 7AF75E27242FCEDE00632E51 /* Build configuration list for PBXProject "MockSpotify" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7AF75E23242FCEDE00632E51;
+			productRefGroup = 7AF75E2D242FCEDE00632E51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7AF75E2B242FCEDE00632E51 /* MockSpotify */,
+				7AF75E41242FCEE100632E51 /* MockSpotifyTests */,
+				7AF75E4C242FCEE100632E51 /* MockSpotifyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7AF75E2A242FCEDE00632E51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AF75E3C242FCEE100632E51 /* LaunchScreen.storyboard in Resources */,
+				7AF75E39242FCEE100632E51 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AF75E40242FCEE100632E51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AF75E4B242FCEE100632E51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7AF75E28242FCEDE00632E51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AF75E66243047AC00632E51 /* HeadCollectionViewCell.swift in Sources */,
+				7AF75E34242FCEDE00632E51 /* ViewController.swift in Sources */,
+				7AF75E64243005D000632E51 /* SectionCollectionViewCell.swift in Sources */,
+				7AF75E622430002B00632E51 /* HomeCollectionViewController.swift in Sources */,
+				7AF75E30242FCEDE00632E51 /* AppDelegate.swift in Sources */,
+				7AF75E6824305CCE00632E51 /* LikedGroupBandsButton.swift in Sources */,
+				7AF75E32242FCEDE00632E51 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AF75E3E242FCEE100632E51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AF75E47242FCEE100632E51 /* MockSpotifyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AF75E49242FCEE100632E51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AF75E52242FCEE100632E51 /* MockSpotifyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7AF75E44242FCEE100632E51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AF75E2B242FCEDE00632E51 /* MockSpotify */;
+			targetProxy = 7AF75E43242FCEE100632E51 /* PBXContainerItemProxy */;
+		};
+		7AF75E4F242FCEE100632E51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AF75E2B242FCEDE00632E51 /* MockSpotify */;
+			targetProxy = 7AF75E4E242FCEE100632E51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7AF75E3A242FCEE100632E51 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AF75E3B242FCEE100632E51 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7AF75E54242FCEE100632E51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7AF75E55242FCEE100632E51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7AF75E57242FCEE100632E51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4A23NP6XF7;
+				INFOPLIST_FILE = MockSpotify/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MockSpotify.MockSpotify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7AF75E58242FCEE100632E51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4A23NP6XF7;
+				INFOPLIST_FILE = MockSpotify/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MockSpotify.MockSpotify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7AF75E5A242FCEE100632E51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MockSpotifyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MockSpotify.MockSpotifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MockSpotify.app/MockSpotify";
+			};
+			name = Debug;
+		};
+		7AF75E5B242FCEE100632E51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MockSpotifyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MockSpotify.MockSpotifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MockSpotify.app/MockSpotify";
+			};
+			name = Release;
+		};
+		7AF75E5D242FCEE100632E51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MockSpotifyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MockSpotify.MockSpotifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MockSpotify;
+			};
+			name = Debug;
+		};
+		7AF75E5E242FCEE100632E51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MockSpotifyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MockSpotify.MockSpotifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MockSpotify;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7AF75E27242FCEDE00632E51 /* Build configuration list for PBXProject "MockSpotify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AF75E54242FCEE100632E51 /* Debug */,
+				7AF75E55242FCEE100632E51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AF75E56242FCEE100632E51 /* Build configuration list for PBXNativeTarget "MockSpotify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AF75E57242FCEE100632E51 /* Debug */,
+				7AF75E58242FCEE100632E51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AF75E59242FCEE100632E51 /* Build configuration list for PBXNativeTarget "MockSpotifyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AF75E5A242FCEE100632E51 /* Debug */,
+				7AF75E5B242FCEE100632E51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AF75E5C242FCEE100632E51 /* Build configuration list for PBXNativeTarget "MockSpotifyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AF75E5D242FCEE100632E51 /* Debug */,
+				7AF75E5E242FCEE100632E51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7AF75E24242FCEDE00632E51 /* Project object */;
+}
